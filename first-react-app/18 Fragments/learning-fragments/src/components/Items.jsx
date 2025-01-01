@@ -1,6 +1,8 @@
-const Item = (props) => {
+import styles from './Item.css';
+
+const Item = ({foodItem}) => {
   return (
-    <li className="list-group-item">{props.foodItem}</li>
+    <li className="list-group-item kg-item">{foodItem}</li>
   )
 };
 

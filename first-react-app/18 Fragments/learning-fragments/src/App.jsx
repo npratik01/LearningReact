@@ -5,6 +5,7 @@ import FoodItems from "./components/FoodItems";
 import ErrorMessage from "./components/ErrorMessage";
 
 
+
 function App() {
   // let foodItems = [];
   let foodItems = ['roti', 'paratha', 'chicken','salad', 'vegetables'];
