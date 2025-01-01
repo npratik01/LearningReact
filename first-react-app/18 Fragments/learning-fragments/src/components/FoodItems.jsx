@@ -6,7 +6,7 @@ function FoodItems() {
   return (
     <ul className="list-group">
       {foodItems.map((item) => (
-        <Item foodItem={item}></Item>
+        <Item key={item} foodItem={item}></Item>
       ))}
     </ul>
   );

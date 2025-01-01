@@ -1,6 +1,6 @@
-const Item = () => {
+const Item = (props) => {
   return (
-    <li key={item} className="list-group-item">{item}</li>
+    <li className="list-group-item">{props.foodItem}</li>
   )
 };
 
