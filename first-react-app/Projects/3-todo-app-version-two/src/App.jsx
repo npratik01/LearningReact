@@ -1,7 +1,7 @@
 import AppName from "./components/AppName";
-import AddToDo from "./components/AddToDo";
+import AddTodo from "./components/AddTodo";
+import TodoItems from "./components/TodoItems";
 import "./App.css";
-import TodoItem from "./components/ToDoItem";
 
 function App() {
   const todoItems = [
@@ -22,9 +22,8 @@ function App() {
   return (
     <center className="todo-container">
       <AppName />
-      <AddToDo />
-      <multiItems todoItems={TodoItem} ></multiItems>
-      
+      <AddTodo />
+      <TodoItems todoItems={todoItems}></TodoItems>
     </center>
   );
 }
